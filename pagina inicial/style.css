@@ -1,9 +1,83 @@
 * {
     margin: 0;
     padding: 0%;
+
 }
 
-html,body{
+html,
+body {
     width: 100%;
     height: 100%;
+}
+
+body {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../imagens/fundo.jpeg);
+}
+
+.container {
+    width: 400px;
+    
+    justify-content: center;
+    display: flex;
+    background-image: url(../imagens/images\ \(1\).jpg);
+    color: rgb(247, 18, 10);
+    font-size: 20px;
+    font-weight: bold;
+    border-color: black;
+    
+}
+
+h1 {
+
+    text-transform: uppercase;
+}
+
+.box {
+    border-radius: 3%;
+    width: 400px;
+    height: 270px;
+    color: rgb(255, 255, 255);
+    background-image: url(../imagens/images\ \(1\).jpg);
+    padding: 60px;
+    border-style: double;
+    align-items: center;
+    border: 5px double rgb(255, 251, 251);
+    padding-bottom:20%;
+
+}
+
+p {
+    padding-top: 20px;
+    font-size: 25px;
+    /* font-weight: bold; */
+    color: rgb(221, 221, 31);
+}
+
+a {
+
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
+}
+
+button {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: arial;
+    color: rgb(255, 255, 255) ;
+    border-radius: 10px 5px 10px 5px;
+    background-color: red;
+    padding: 5px;
+
+}
+a button :hover{
+    font-size: 34px;
+}
+
 }
