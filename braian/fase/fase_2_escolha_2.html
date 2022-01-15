@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fase_2.css"
+ </head>
+
+<body>
+    <div class="container">
+        <div class="titulo">
+
+        </div>
+        <h1>Zumbis ao Ataque</h1>
+    </div>
+    <div class="box">
+        <p> voce se levantou e abriu a janela do seu quarto
+           ao olhar para rua ,voce viu muita gritaria, pessoas correndo para todos os lados 
+           algumas delas atacando as outras, pessoas chorando , voce não esta entendo nada.
+            <br>
+           
+
+        <button onclick="opcao()">
+            escolher
+        </button>
+
+    </div>
+    </div>
+    <script>
+        function opcao() {
+    var escolha = Number(prompt("faça a sua escolha    \n 1 - vai sair de casa  \n 2 -  ir no vizinho \n  3 - sair pela escada de emergencia"));
+   
+    // while (true) {
+
+      if (escolha === 1) {
+            window.location.href = 'fase_2_escolha_1.html'
+        
+
+        } else if (escolha === 2) {
+            window.location.href = "fase_2_escolha_2.html"
+            
+
+
+        } else {
+            window.location.href = 'fase_2_escolha_3.html'
+
+        
+
+          
+        }
+    
+    // }
+
+} 
+
+
+
+    </script>
+
+</body>
+
+</html>
