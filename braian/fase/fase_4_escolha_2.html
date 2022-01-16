@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="fase_4.css">
-    <title>Document</title>
+    <title>zumbi</title>
+    <link rel="stylesheet" href="carlos_fase 1.css">
+
 </head>
+
 <body>
     <div class="container">
         <div class="titulo">
@@ -15,20 +18,39 @@
         <h1>Zumbis ao Ataque</h1>
     </div>
     <div class="box">
-        <p>voce pegou o controle e aumentou o volume da tv o reporter esta
-            em um elicoptero sobrevoando a cidade e dando a seguinte informação
-            <br>
-            -a cidade foi tomada por criaturas que estam atacado a todos , os
-            militares vão bombardear a cidade meio dia todos devem dse dirigir a
-            divisa da cidade ate esse horrario.
-            <br>
-            em seguida o sinal da tv caiu
-            <br>
-            o que voce vai fazer
-            1- ligar pra alguem para conseguir mais informações
-            2- sair de casa correndo
-            3- tentar conseguir mais informações com calma
+        <p>
+           voce descobriu qual é o carro do homem e entrou nele
         </p>
 
+        <di class=botao>
+            <button onclick="opcao()">
+                escolher
+            </button>
+    </div>
+    </div>
+    </div>
+    <script>
+        function opcao() {
+            var escolha = Number(prompt(
+                " o que voce vai fazer \n 1- ir embora da cidade  \n 2- tentar dar carona para o maximo de pessoas possivel \n 3- vai ajudar uma moça que esta com uma criança no colo e esta prestes a ser atacada por um zumbi"
+                ));
+
+            if (escolha === 1) {
+                window.location.href = "fase_4_escolha_1.html"
+
+
+            } else if (escolha === 2) {
+                window.location.href = "fase_4_escolha_2.html"
+
+
+
+            } else {
+                window.location.href = "fase_4_escolha_3.html"
+            }
+
+
+        }
+    </script>
 </body>
+
 </html>
