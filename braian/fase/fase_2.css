@@ -44,7 +44,9 @@ body {
 
 h1 {
 
+    padding-bottom: 20%;
     text-transform: uppercase;
+    color: white;
 }
 
 .box {
@@ -52,7 +54,7 @@ h1 {
     width: 350px;
     height: 200px;
     color: rgb(255, 255, 255);
-    background-image: url(/imagens/images\ \(1\).jpg);
+    background-image: url(fundo.jpeg);
     background-attachment: fixed;
     background-size: 100%;
     padding: 60px;
@@ -60,7 +62,7 @@ h1 {
     align-items: center;
     border: 5px double rgb(255, 251, 251);
     padding-bottom:20%;
-    border:3px solid red;
+    border: 10px double red;
 
 }
 
@@ -73,6 +75,8 @@ p {
 
 button {
     text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
     font-size: 22px;
     font-weight: bold;
     font-family: arial;
@@ -84,5 +88,6 @@ button {
 .click {
 padding-top: 50px;
 text-align: center;
+justify-content: center;
 }
 

@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Zumbi</title>
     <link rel="stylesheet" href="./fase_1.css">
     <script src="script_1.js"></script>
-    
+
 </head>
 
 <body>
@@ -19,10 +20,12 @@
     </div>
     <div class="box">
         <p>
-            voce accabou de acordar sua tv esta ligada com o volume baixo
-            e um reporter esta dando uma noticia aparente importante, voce taambem
+            Você acabou de acordar sua TV esta ligada com o volume baixo
+            e um repórter está dando uma noticia aparentemente importante, você também
             consegue ouvir uma gritaria vinda da rua.
-            o que voce quer fazer?
+
+
+            O que você quer fazer?
         </p>
 
         <div class="click">
@@ -32,35 +35,34 @@
         </div>
 
     </div>
-<script>
-    function opcao() {
-    var escolha = Number(prompt("faça a sua escolha    \n 1 - aumentar o volume da  \n 2 -  abrir a janela e vee  que gritaria é essa \n  3 - ir para cozinha fazer um café"));
-   
-
-      if (escolha === 1) {
-            window.location.href = 'fase_2_escolha_1.html'
-        
-
-        } else if (escolha === 2) {
-            window.location.href = "fase_2_escolha_2.html"
-            
+    <script>
+        function opcao() {
+            var escolha = Number(prompt(
+                "faça a sua escolha    \n 1 - aumentar o volume da  \n 2 -  abrir a janela e ver  que gritaria é essa \n  3 - ir para cozinha fazer um café"
+                ));
 
 
-        } else {
-            window.location.href = "game_over.html"
+            if (escolha === 1) {
+                window.location.href = 'fase_2_escolha_1.html'
 
-        
 
-          
+            } else if (escolha === 2) {
+                window.location.href = "fase_2_escolha_2.html"
+
+
+
+            } else {
+                window.location.href = "game_over.html"
+
+
+
+
+            }
+
+
+
         }
-    
-    
-
-} 
-
-
-
-</script>
+    </script>
 </body>
 
 </html>

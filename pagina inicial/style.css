@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0%;
     padding: 0%;
 
 }
@@ -16,18 +16,18 @@ body {
     flex-direction: column;
     align-items: center;
     background-image: url(../imagens/fundo.jpeg);
+    
 }
 
 .container {
     width: 400px;
-    
     justify-content: center;
     display: flex;
-    background-image: url(../imagens/images\ \(1\).jpg);
-    color: rgb(247, 18, 10);
+    color: rgb(250, 11, 2);
     font-size: 20px;
     font-weight: bold;
     border-color: black;
+    padding-bottom: 2%;
     
 }
 
@@ -40,19 +40,17 @@ h1 {
     border-radius: 3%;
     width: 400px;
     height: 270px;
-    color: rgb(255, 255, 255);
-    background-image: url(../imagens/images\ \(1\).jpg);
+    background-image: url(../imagens/imagem.jpeg);
     padding: 60px;
     border-style: double;
-    align-items: center;
-    border: 5px double rgb(255, 251, 251);
+    border: 10px double red;
     padding-bottom:20%;
 
 }
 
 p {
     padding-top: 20px;
-    font-size: 25px;
+    font-size: 28px;
     /* font-weight: bold; */
     color: rgb(221, 221, 31);
 }
@@ -76,7 +74,10 @@ button {
     padding: 5px;
 
 }
-a button :hover{
-    font-size: 34px;
+.h1 {
+    color: white;
 }
+/* a button :hover{
+    font-size: 34px;
+} */
 

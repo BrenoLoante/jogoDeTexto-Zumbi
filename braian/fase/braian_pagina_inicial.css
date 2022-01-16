@@ -38,16 +38,19 @@ h1 {
 }
 
 .box {
+    background-image: url(/imagens/imagem.jpeg);
     border-radius: 3%;
     width: 350px;
-    height: 280px;
+    height: 100px;
     background-attachment: fixed;
     background-size: 100%;
     padding: 20px;
     align-items: center;
     padding-bottom: 25%;
-    border: 3px solid red;
-    background-color: black;
+    border: 10px double red;
+    ;
+    /* background-color: black; */
+    
     
 }
 
@@ -100,5 +103,24 @@ img {
     justify-content: center;
     align-items: center;
     padding-left: 40px;
+
+}
+a {
+
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+button {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: arial;
+    color: rgb(255, 255, 255) ;
+    border-radius: 10px 5px 10px 5px;
+    background-color: red;
+    padding: 5px;
 
 }

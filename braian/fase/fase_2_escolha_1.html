@@ -14,10 +14,11 @@
 <body>
     <div class="container">
         <div class="titulo">
-
+            <h1>Zumbis ao Ataque</h1>
         </div>
-        <h1>Zumbis ao Ataque</h1>
+
     </div>
+
     <div class="box">
         <p>voce pegou o controle e aumentou o volume da tv o reporter esta
             em um elicoptero sobrevoando a cidade e dando a seguinte informação
@@ -28,44 +29,46 @@
             <br>
             em seguida o sinal da tv caiu
             <br>
-        
-          
+
+
         </p>
-        <di class=botao> 
+
+        <di class=botao>
             <button onclick="opcao()">
                 escolher
             </button>
-        </div>
+    </div>
 
-    </div>
-    </div>
+
     <script>
         function opcao() {
-    var escolha = Number(prompt("faça a sua escolha  1 - ligar pra alguem para conseguir mais informações\ n 2 - sair de casa correndo\ n 3 - voltar a dormir "));
+            var escolha = Number(prompt(
+                "faça a sua escolha  1 - ligar pra alguem para conseguir mais informações\ n 2 - sair de casa correndo\ n 3 - voltar a dormir "
+                ));
 
 
 
 
-    if (escolha === 1) {
-        window.location.href = "fase_3_escolha_1.html"
+            if (escolha === 1) {
+                window.location.href = "fase_3_escolha_1.html"
 
 
-    } else if (escolha === 2) {
-        window.location.href = "fase_3_escolha_2.html"
-
-
-
-    } else {
-        window.location.href = "game_over.html"
+            } else if (escolha === 2) {
+                window.location.href = "fase_3_escolha_2.html"
 
 
 
+            } else {
+                window.location.href = "game_over.html"
 
 
-    }
 
 
-}
+
+            }
+
+
+        }
     </script>
 
 </body>
