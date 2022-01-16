@@ -1,5 +1,6 @@
+
 * {
-    margin: 0%;
+    margin: 0;
     padding: 0%;
 
 }
@@ -15,71 +16,69 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../imagens/fundo.jpeg);
-    
+    background-image: url(/imagens/fundo.jpeg);
+    background-attachment: fixed;
+    background-size: 100%;
 }
 
 .container {
-    width: 400px;
+    width: 400px;    
     justify-content: center;
     display: flex;
-    color: rgb(250, 11, 2);
+    color: rgb(247, 18, 10);
     font-size: 20px;
     font-weight: bold;
     border-color: black;
-    padding-bottom: 2%;
-    
-}
+    }
 
 h1 {
 
+    padding-bottom: 20%;
     text-transform: uppercase;
+    color: white;
 }
 
 .box {
     border-radius: 3%;
-    width: 400px;
-    min-height: 270px;
-    background-image: url(../imagens/imagem.jpeg);
+    width: 350px;
+    min-height: 100px;
+    color: rgb(255, 255, 255);
+    background-image: url(/imagens/imagem.jpeg);
+    background-color: black;
+    background-attachment: fixed;
+    background-size: 100%;
     padding: 60px;
     border-style: double;
+    align-items: center;
+    border: 5px double rgb(255, 251, 251);
+    padding-bottom:20%;
     border: 10px double red;
 
 }
 
 p {
-    padding-top: 20px;
-    font-size: 28px;
+    padding-top: px;
+    font-size: 25px;
     /* font-weight: bold; */
     color: rgb(221, 221, 31);
-    margin-bottom:20%;
-}
-
-a {
-
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    /* padding-top: 180px; */
 }
 
 button {
     text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
     font-size: 22px;
     font-weight: bold;
     font-family: arial;
     color: rgb(255, 255, 255) ;
     border-radius: 10px 5px 10px 5px;
     background-color: red;
-    padding: 5px;
+    
+}
+.botao{
     justify-content: center;
     text-align: center;
-
+    padding-top: 60%;
+    
 }
-.h1 {
-    color: white;
-}
-/* a button :hover{
-    font-size: 34px;
-} */
 

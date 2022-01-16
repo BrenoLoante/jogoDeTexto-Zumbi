@@ -6,57 +6,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="fase_3.css">
+    <link rel="stylesheet" href="./css/fase_3.css">
     <script src="script_3.js"></script>
 </head>
 
 <body>
     <div class="container">
         <div class="titulo">
-
+            <h1>Zumbis ao Ataque</h1>
         </div>
-        <h1>Zumbis ao Ataque</h1>
+
     </div>
+
     <div class="box">
-        voce pegou o telefone mais está sem sinal e sem internet
-           
+        <p>
+            Você pegou o telefone mais está sem sinal e sem internet.
+
         </p>
+        <div class=botao >
 
-        <button onclick="opcao()">
-            escolher
-        </button>
+            <button onclick="opcao()">
+                escolher
+            </button>
+        </div>
+
+
 
     </div>
-    </div>
-<script>
-    function opcao() {
-    var escolha = Number(prompt(" o que voce vai fazer \n 1- tomar um banho pra se acalmar \n 2- sair de casa correndo\n 3- tentar conseguir mais informações com calma"));
+
+    <script>
+        function opcao() {
+            var escolha = Number(prompt(
+                " o que voce vai fazer \n 1- tomar um banho pra se acalmar \n 2- sair de casa correndo\n 3- tentar conseguir mais informações com calma"
+            ));
 
 
 
 
-    if (escolha === 1) {
-        window.location.href = "game_over.html"
+            if (escolha === 1) {
+                window.location.href = "game_over.html"
 
 
-    } else if (escolha === 2) {
-        window.location.href = "game_over.html"
-
-
-
-    } else {
-        window.location.href = "game_over.html"
+            } else if (escolha === 2) {
+                window.location.href = "game_over.html"
 
 
 
+            } else {
+                window.location.href = "game_over.html"
 
 
-    }
 
 
-}
 
-</script>
+            }
+
+
+        }
+    </script>
 </body>
 
 </html>

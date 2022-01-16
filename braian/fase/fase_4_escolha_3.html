@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>zumbi</title>
-    <link rel="stylesheet" href="carlos_fase 1.css">
+    <link rel="stylesheet" href="./css/carlos_fase 1.css">
 
 </head>
 
@@ -22,18 +22,18 @@
             voce pegou a chave do carro de um homem que acabou de ser atropelado
         </p>
 
-        <di class=botao>
+        <div class=botao>
             <button onclick="opcao()">
                 escolher
             </button>
+        </div>
     </div>
-    </div>
-    </div>
+    ''
     <script>
         function opcao() {
             var escolha = Number(prompt(
                 " o que voce vai fazer \n 1- descobrir qual é o carro dele  \n 2- correr loucamente pela rua \n 3- vai ajudar uma moça que esta com uma criança no colo e esta prestes a ser atacada por um zumbi"
-                ));
+            ));
 
             if (escolha === 1) {
                 window.location.href = "fase_4_escolha_1.html"

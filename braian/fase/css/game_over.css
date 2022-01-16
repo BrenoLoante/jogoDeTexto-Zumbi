@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0%;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+h1{
+    font-size: 200px;
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+p {
+   font-size:40px ;
+   text-align: center;
+}
+.botao{
+    padding-top: 80px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+button {
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: arial;
+    color: rgb(255, 255, 255) ;
+    border-radius: 10px 5px 10px 5px;
+    background-color: red;
+    
+}

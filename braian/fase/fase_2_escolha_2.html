@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="fase_2.css">
+    <link rel="stylesheet" href="./css/fase_2_1.css">
 
- </head>
+</head>
 
 <body>
     <div class="container">
@@ -18,47 +18,63 @@
         <h1>Zumbis ao Ataque</h1>
     </div>
     <div class="box">
-        <p> voce se levantou e abriu a janela do seu quarto
-           ao olhar para rua ,voce viu muita gritaria, pessoas correndo para todos os lados 
-           algumas delas atacando as outras, pessoas chorando , voce não esta entendo nada.
+        <p>
+            Você se levantou e abriu a janela do seu quarto
+            ao olhar para rua, você viu muita gritaria,
+            pessoas correndo para todos os lados
+            algumas delas atacando as outras, pessoas chorando, você não está entendo nada.
+
+
             <br>
-           
+        </p>
 
-        <button onclick="opcao()">
-            escolher
-        </button>
+        <div class="botao">
+            <button onclick="opcao()">
+                escolher
+            </button>
+        </div>
+
+
 
     </div>
-    </div>
+
     <script>
         function opcao() {
-    var escolha = Number(prompt("faça a sua escolha    \n 1 - vai sair de casa  \n 2 -  ir no vizinho \n  3 - sair pela escada de emergência"));
-   
-    // while (true) {
+            var escolha = Number(prompt(
+                "Faça a sua escolha    \n 1 - vai sair de casa  \n 2 -  ir no vizinho \n  3 - sair pela escada de emergência."
+            ));
 
-      if (escolha === 1) {
-            window.location.href = "game_over.html"
-        
+            while (escolha != 1 || escolha != 2 || escolha != 3)
 
-        } else if (escolha === 2) {
-            window.location.href = "game_over.html"
-            
+            {
+
+                if (escolha == 1) {
+                    window.location.href = "game_over.html"
+                    break;
 
 
-        } else {
-            window.location.href = 'fase_3_escolha_3.html'
+                } else if (escolha == 2) {
+                    window.location.href = "game_over.html"
+                    break;
 
-        
 
-          
+
+                } else if (escolha == 3) {
+                    window.location.href = "fase_3_escolha_3.html"
+
+
+                    break;
+
+                } else {
+                    alert("escolha entre as opções 1, 2 ou 3")
+
+                    break;
+
+                }
+
+            }
+
         }
-    
-    // }
-
-} 
-
-
-
     </script>
 
 </body>

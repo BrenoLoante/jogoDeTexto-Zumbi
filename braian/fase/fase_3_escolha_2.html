@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="fase_3.css">
+    <link rel="stylesheet" href="./css/fase_3_1.css">
     <script src="script_3.js"></script>
 </head>
 
@@ -19,48 +19,50 @@
     </div>
     <div class="box">
         <p>
-            voce saiu correndo do seu apartamento
-             faca a sua escolha 
-             1 - escada
-             2 - elevador
-             3 - escada de emergencia
+            Você saiu correndo do seu apartamento.
+            <br><br>
+            O que você vai fazer ?
+
         </p>
 
-        <button onclick="opcao()">
-            escolher
-        </button>
+        <div class="botao">
+            <button onclick="opcao()">
+                escolher
+            </button>
+        </div>
+
+
 
     </div>
-    </div>
+
     <script>
         function opcao() {
-    var escolha = Number(prompt("faça a sua escolha    \n 1 - voce correu para escada \n 2 -  ir no vizinho \n  3 - sair pela escada de emergência"));
-   
-    // while (true) {
+            var escolha = Number(prompt(
+                "faça a sua escolha    \n 1 - voce correu para escada \n 2 -  ir no vizinho \n  3 - sair pela escada de emergência"
+                ));
 
-      if (escolha === 1) {
-            window.location.href = "game_over.html"
-        
+            // while (true) {
 
-        } else if (escolha === 2) {
-            window.location.href = "game_over.html"
-            
+            if (escolha === 1) {
+                window.location.href = "game_over.html"
 
 
-        } else {
-            window.location.href = 'fase_3_escolha_3.html'
- 
-        
+            } else if (escolha === 2) {
+                window.location.href = "game_over.html"
 
-          
+
+
+            } else {
+                window.location.href = 'fase_3_escolha_3.html'
+
+
+
+
+            }
+
+            // }
+
         }
-    
-    // }
-
-} 
-
-
-
     </script>
 </body>
 
