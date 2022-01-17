@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(./imagens/fundo.jpeg);
+    background-image: url(imagens\fundo.jpeg);
     
 }
 
@@ -40,7 +40,7 @@ h1 {
     border-radius: 3%;
     width: 400px;
     min-height: 270px;
-    background-image: url(./imagens/imagem.jpeg);
+    background-image: url(imagens\imagem.jpeg);
     padding: 60px;
     border-style: double;
     border: 10px double red;
@@ -50,7 +50,7 @@ h1 {
 p {
     padding-top: 20px;
     font-size: 28px;
-    /* font-weight: bold; */
+    
     color: rgb(221, 221, 31);
     margin-bottom:20%;
 }
@@ -60,7 +60,7 @@ a {
     text-decoration: none;
     display: flex;
     justify-content: center;
-    /* padding-top: 180px; */
+   
 }
 
 button {
