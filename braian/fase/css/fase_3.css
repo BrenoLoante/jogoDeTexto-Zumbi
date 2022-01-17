@@ -43,7 +43,7 @@ h1 {
     width: 350px;
     height: 100px;
     color: rgb(255, 255, 255);
-    background-image: url(/imagens/imagem.jpeg);
+    background-image: url(../../../imagens/imagem.jpeg);
     background-color: black;
     background-attachment: fixed;
     background-size: 100%;

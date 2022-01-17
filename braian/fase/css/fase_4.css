@@ -14,7 +14,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(/imagens/fundo.jpeg);
+    background-image: url(../../../imagens/fundo.jpeg);
     background-attachment: fixed;
     background-size: 100%;
 }
@@ -39,7 +39,7 @@ h1 {
 }
 
 .box {
-    background-image: url(/imagens/imagem.jpeg);
+    background-image: url(../../../imagens/imagem.jpeg);
     border-radius: 3%;
     width: 300px;
     min-height: 20px;
