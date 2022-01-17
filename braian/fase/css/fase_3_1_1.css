@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(/imagens/fundo.jpeg);
+    background-image: url(../../../imagens/fundo.jpeg);
     background-attachment: fixed;
     background-size: 100%;
 }
